@@ -3,5 +3,7 @@
   <%= f.text_field :title, placeholder: "new task" %>
   <%= f.label :details %>
   <%= f.text_field :details, placeholder: "what exactly do you need to do" %>
+  <%= f.label :completed %>
+  <%= f.check_box :completed %>
   <%= f.submit %>
 <% end %>
